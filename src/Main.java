@@ -7,6 +7,8 @@ public class Main {
         task4();
         task5();
         task6();
+        task7();
+        task8();
 
 
     }
@@ -73,12 +75,29 @@ public class Main {
             w=w+7*w/100;
             w=w+i;
             if (i % 6 == 0)
-                System.out.println("месяц" + i + "сумма"+ w);
+                System.out.println("месяц" + i + "сумма/"+ w);
         }
         System.out.println("всего мечяцов" + i);
     }
+    public static void task7() {
+        int q = 1;
+        int i = 7;
+        do {  q = q + i;
+            System.out.println(q);
+        } while (q <= 31);
 
-
-
+    }
+    public static void task8() {
+        int q = 1975;
+        int i = 79;
+        while (q < 2075){
+            q=q+i;
+            System.out.println(q);
+        }
+        while (q > 1775){
+            q=q-i;
+            System.out.println(q);
+        }
+    }
 
 }

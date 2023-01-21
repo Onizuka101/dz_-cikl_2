@@ -13,11 +13,11 @@ public class Main {
 
     }
     public static void task1() {
-    int q = 0;
-    int i = 15000;
-    while (q < 2459000){
-        q=q+i;
-        System.out.println(q);
+    int capital = 0;
+    int monthlySavings = 15000;
+    while (capital < 2459000){
+        capital=capital+monthlySavings;
+        System.out.println(capital);
     }
     }
     public static void task2() {
@@ -34,69 +34,69 @@ public class Main {
 
     }
     public static void task3() {
-        int q = 12_000_000;
-        int a = 17;
-        int c = 8;
-        int d = a-c;
-        int w = 1000;
-        int y = w+d;
+        int population = 12_000_000;
+        int birthRate = 17;
+        int mortality = 8;
+        int populationGrowth = birthRate-mortality;
+        int thousand = 1000;
+        int populationGrowthPerThousand = thousand+populationGrowth;
             for (int i = 1; i <= 10; i = i + 1){
-            q=q/w*y;
-                System.out.println ("«Год" + i +" ,численность населения составляет" + q + "»" );}
+                population=population/thousand*populationGrowthPerThousand;
+                System.out.println ("«Год" + i +" ,численность населения составляет" + population + "»" );}
     }
     public static void task4() {
 
-        int w = 15000;
-        int i = 1;
-        for ( ;w< 12000000; i++){
-            w=w+7*w/100;
-            w=w+i;
-            System.out.println("месяц" + i + "сумма"+ w);
+        int capital = 15000;
+        int month = 1;
+        for ( ;capital< 12000000; month++){
+            capital=capital+7*capital/100;
+            capital=capital+month;
+            System.out.println("месяц" + month + "сумма"+ capital);
         }
-        System.out.println("всего мечяцов" + i);
+        System.out.println("всего мечяцов" + month);
     }
     public static void task5() {
 
-        int w = 15000;
-        int i = 1;
-        for ( ;w< 12000000; i++){
-            w=w+7*w/100;
-            w=w+i;
-            if (i % 6 == 0)
-            System.out.println("месяц" + i + "сумма"+ w);
+        int capital = 15000;
+        int month = 1;
+        for ( ;capital< 12000000; month++){
+            capital=capital+7*capital/100;
+            capital=capital+month;
+            if (month % 6 == 0)
+            System.out.println("месяц" + month + "сумма"+ capital);
         }
-        System.out.println("всего мечяцов" + i);
+        System.out.println("всего мечяцов" + month);
     }
     public static void task6() {
 
-        int w = 15000;
-        int i = 1;
-        for ( ;i< 108; i++){
-            w=w+7*w/100;
-            w=w+i;
-            if (i % 6 == 0)
-                System.out.println("месяц" + i + "сумма/"+ w);
+        int capital = 15000;
+        int month = 1;
+        for ( ;month< 108; month++){
+            capital=capital+7*capital/100;
+            capital=capital+month;
+            if (month % 6 == 0)
+                System.out.println("месяц" + month + "сумма/"+ capital);
         }
-        System.out.println("всего мечяцов" + i);
+        System.out.println("всего мечяцов" + month);
     }
     public static void task7() {
-        int q = 1;
-        int i = 7;
-        do {  q = q + i;
-            System.out.println(q);
-        } while (q <= 31);
+        int friday = 1;
+        int week = 7;
+        do {  friday = friday + week;
+            System.out.println(friday);
+        } while (friday <= 31);
 
     }
     public static void task8() {
-        int q = 1975;
-        int i = 79;
-        while (q < 2075){
-            q=q+i;
-            System.out.println(q);
+        int comet = 1975;
+        int interval = 79;
+        while (comet < 2075){
+            comet=comet+interval;
+            System.out.println(comet);
         }
-        while (q > 1775){
-            q=q-i;
-            System.out.println(q);
+        while (comet > 1775){
+            comet=comet-interval;
+            System.out.println(comet);
         }
     }
 
